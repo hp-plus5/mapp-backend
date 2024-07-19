@@ -18,7 +18,6 @@ class GraphqlController < ApplicationController
   rescue StandardError => e
     raise e unless Rails.env.development?
     handle_error_in_development(e)
-    console.log("We handled it alright")
   end
 
   private
