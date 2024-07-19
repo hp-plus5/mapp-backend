@@ -8,8 +8,9 @@ class GraphqlController < ApplicationController
     variables = prepare_variables(params[:variables])
     query = params[:query]
     operation_name = params[:operationName]
+    # current_user = get_logged_in_user(request)
     context = {
-      # Query context goes here, for example:
+      # Query context goes here, for example if you want a specific user's collections:
       # current_user: current_user,
     }
     result = MappBackendSchema.execute(query, variables: variables, context: context, operation_name: operation_name)
