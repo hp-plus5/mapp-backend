@@ -9,13 +9,16 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.1"
 gem "graphql"
 gem "graphiql-rails"
 
+
+# gem "devise"
+gem "jwt"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
-# use cors :)
 gem "rack-cors"
 
 # Use the Puma web server [https://github.com/puma/puma]
