@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  latitude: 9.99
-  longitude: 9.99
+  name: 'World Resort Football'
+  latitude: 41.9
+  longitude: 86.9
 
 two:
-  name: MyString
-  latitude: 9.99
-  longitude: 9.99
+  name: 'World Resort Baseball'
+  latitude: 42.3
+  longitude: 86.4

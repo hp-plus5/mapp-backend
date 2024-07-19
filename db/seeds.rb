@@ -9,14 +9,14 @@
 collection_one = Collection.create(
     {
         file_name: "upload number 1",
-        contents: " "
+        contents: " stuff"
     }
 )
 
 collection_two = Collection.create(
     {
         file_name: "upload number 2",
-        contents: " "
+        contents: "yes this is content speaking "
     }
 )
 
