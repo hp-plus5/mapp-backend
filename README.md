@@ -9,11 +9,11 @@ This project uses Ruby version 3.1.2. This means for my own Linux development ma
 * To run this folder's code
 After establishing my Ruby version, I can use the usual commands without prefix:
 `bundle install`
+(`sudo service postgresql start` if postgres isn't running)
 `rake db:create`
-`rails s`
-`rails c`
+`rails s` or `rails c` as desired
 
-This project will launch by default at `http://127.0.0.1:4000`.
+This project will launch by default at `http://127.0.0.1:4000`. Access your graphQL query checker at `http://localhost:4000/graphiql`.
 
 
 * To run entire project
